@@ -1952,7 +1952,15 @@ const definitions: DefinitionWithExtend[] = [
             await reporting.onOff(endpoint);
         },
     },
-    {
+   {
+    zigbeeModel: ['TS0601'],
+    model: 'TS0601',
+    vendor: '_TZE200_rfpyqax9',
+    description: 'Automatically generated definition',
+    extend: [],
+    meta: {},
+   };
+  {
         fingerprint: [{modelID: 'TS0108', manufacturerName: '_TYZB01_7yidyqxd'}],
         model: 'TS0108',
         vendor: 'Tuya',
